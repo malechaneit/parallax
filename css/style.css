@@ -1,0 +1,17 @@
+.story {position: relative;  max-width: 1920px; width: 100%; margin: 0; padding: 0; margin: 0 auto; border-top: 1px solid rgba(255, 255, 255, 0.3); border-bottom: 1px solid rgba(0, 0, 0, 0.4); box-shadow: 0 0 50px rgba(0, 0, 0, 0.8); } article h2 {font-family:'Lobster Two'; font-size: 60px; margin: 25px 0; line-height: 1em; }
+#first { background: url(../images/puckered.png) 50% 0 no-repeat fixed; height: 2000px;}
+#second { background: url(../images/slide2.jpg) 50% 0 no-repeat fixed; height: 1000px;}
+
+/* Introduction */
+#first .smashinglogo { background: url(../images/smashing-logo.png) -600px 10% no-repeat fixed; min-height: 2000px; padding: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#first article { width: 100%; top: 300px; position: absolute; text-align: center; }
+#first article p,
+#first article a { color: #ccc; }
+#first article a { text-decoration: underline; }
+#first article a:hover { color: #fff; }
+
+/* Background Only */
+#second { padding: 50px 0;}
+#second article { background: url(../images/grain.png) repeat #333; color: #fff; width: 445px; margin-left: 100px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#second article p { margin-bottom: 25px; }
+#second article a { color: #ff0;}	
